@@ -50,6 +50,32 @@
           ]
         }
       </script>
+      {%- assign variant = product.selected_or_first_available_variant -%}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": {{ product.title | json }},
+          "description": {{ product.description | strip_html | strip_newlines | truncate: 500 | json }},
+          "url": {{ product.url | absolute_url | json }},
+          {% if product.featured_image %}
+          "image": [{{ product.featured_image | image_url: width: 1200 | prepend: "https:" | json }}],
+          {% endif %}
+          {% if product.vendor %}
+          "brand": { "@type": "Brand", "name": {{ product.vendor | json }} },
+          {% endif %}
+          {% if variant %}
+          "sku": {{ variant.sku | json }},
+          "offers": {
+            "@type": "Offer",
+            "url": {{ product.url | absolute_url | json }},
+            "priceCurrency": {{ cart.currency.iso_code | default: shop.currency | json }},
+            "price": {{ variant.price | money_without_currency | replace: ",", "" | json }},
+            "availability": "https://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}"
+          }
+          {% endif %}
+        }
+      </script>
     {%- elsif request.page_type == 'collection' and collection -%}
       <script type="application/ld+json">
         {
