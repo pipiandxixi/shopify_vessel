@@ -38,6 +38,9 @@
     </script>
     {%- if request.page_type == 'product' and product -%}
       <script type="application/ld+json">
+        {{ product | structured_data }}
+      </script>
+      <script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
