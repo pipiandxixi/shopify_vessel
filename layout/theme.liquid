@@ -31,7 +31,7 @@
         "name": {{ shop.name | json }},
         "potentialAction": {
           "@type": "SearchAction",
-          "target": {{ routes.search_url | append: "?q={search_term_string}" | absolute_url | json }},
+          "target": "{{ routes.search_url | absolute_url }}?q={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       }
