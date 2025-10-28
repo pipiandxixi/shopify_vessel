@@ -17,6 +17,16 @@
 >
 
 {%- liquid
+  assign robots_directive = nil
+  if template.name == 'cart' or template.name == 'search' or template.name == 'list-collections' or template.name contains 'customers' or request.page_type == 'password'
+    assign robots_directive = 'noindex, nofollow'
+  endif
+-%}
+{%- if robots_directive -%}
+  <meta name="robots" content="{{ robots_directive }}">
+{%- endif -%}
+
+{%- liquid
   assign og_title = page_title | default: shop.name
   assign og_url = canonical_url | default: request.origin
   assign og_type = 'website'
