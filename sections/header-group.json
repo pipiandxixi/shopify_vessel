@@ -17,7 +17,21 @@
         "announcement_CyeUR6": {
           "type": "_announcement",
           "settings": {
-            "text": "<strong>🌈</strong>Free Shipping Over $99 | Tax included💌",
+            "text": "<strong>🌈</strong>Free Shipping Over $99 💌",
+            "link": "",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
+        "announcement_ed3CJy": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "💌 All prices are tax-included! No hidden fees at checkout ✨",
             "link": "",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
@@ -31,7 +45,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "🌸Join Cutie Club & Earn Rewards💫",
+            "text": "🌸 Join Cutie Club & Earn Rewards 💫",
             "link": "shopify://blogs/who-we-are-what-we-do-1/💖-welcome-to-the-cutie-club",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
@@ -44,6 +58,7 @@
       },
       "block_order": [
         "announcement_CyeUR6",
+        "announcement_ed3CJy",
         "announcement_Y9hQeb"
       ],
       "name": "t:names.announcement_bar",
