@@ -29,8 +29,6 @@
         "gap": 20,
         "section_width": "page-width",
         "section_height": "medium",
-        "section_height_mobile": "large",
-        "section_height_custom_mobile": 50,
         "section_height_custom": 100,
         "color_scheme": "scheme-6",
         "toggle_overlay": false,
