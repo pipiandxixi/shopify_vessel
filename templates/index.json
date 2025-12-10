@@ -13,8 +13,8 @@
       "type": "hero",
       "name": "Hero",
       "settings": {
-        "media_type_1": "video",
-        "image_1": "shopify://shop_images/1.png",
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/20251210024927_4113_38.png",
         "video_1": "shopify://files/videos/Green and Brown Minimalist Summer Memories Video_d6851394-11f2-4a63-8b9f-2b6c0d9b0537.mp4",
         "media_type_2": "image",
         "link": "shopify://collections",
