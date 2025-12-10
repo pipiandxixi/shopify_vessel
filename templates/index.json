@@ -14,7 +14,7 @@
       "name": "Hero",
       "settings": {
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/20251210024927_4113_38.png",
+        "image_1": "shopify://shop_images/special_offer_1920x1080_8164e937-9b32-4fe2-9598-3c21a5616cd0.png",
         "video_1": "shopify://files/videos/Green and Brown Minimalist Summer Memories Video_d6851394-11f2-4a63-8b9f-2b6c0d9b0537.mp4",
         "media_type_2": "image",
         "link": "shopify://collections",
@@ -28,7 +28,7 @@
         "vertical_alignment_flex_direction_column": "flex-end",
         "gap": 20,
         "section_width": "page-width",
-        "section_height": "auto",
+        "section_height": "medium",
         "section_height_custom": 100,
         "color_scheme": "scheme-6",
         "toggle_overlay": false,
