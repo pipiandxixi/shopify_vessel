@@ -31,7 +31,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "💌 All prices are tax-included! No hidden fees at checkout ✨",
+            "text": "💌 All prices are tax-included!",
             "link": "",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
@@ -54,12 +54,27 @@
             "case": "none"
           },
           "blocks": {}
+        },
+        "announcement_ydRf6c": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "✨No hidden fees at checkout!",
+            "link": "",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "announcement_CyeUR6",
         "announcement_ed3CJy",
-        "announcement_Y9hQeb"
+        "announcement_Y9hQeb",
+        "announcement_ydRf6c"
       ],
       "name": "t:names.announcement_bar",
       "settings": {
