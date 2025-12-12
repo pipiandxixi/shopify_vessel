@@ -41,20 +41,6 @@
           },
           "blocks": {}
         },
-        "announcement_Y9hQeb": {
-          "type": "_announcement",
-          "name": "t:names.announcement",
-          "settings": {
-            "text": "🌸 Join Cutie Club & Earn Rewards 💫",
-            "link": "shopify://blogs/who-we-are-what-we-do-1/💖-welcome-to-the-cutie-club",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "weight": "",
-            "letter_spacing": "normal",
-            "case": "none"
-          },
-          "blocks": {}
-        },
         "announcement_ydRf6c": {
           "type": "_announcement",
           "name": "t:names.announcement",
@@ -68,13 +54,27 @@
             "case": "none"
           },
           "blocks": {}
+        },
+        "announcement_Y9hQeb": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "🌸 Join Cutie Club & Earn Rewards 💫",
+            "link": "shopify://blogs/who-we-are-what-we-do-1/💖-welcome-to-the-cutie-club",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "announcement_CyeUR6",
         "announcement_ed3CJy",
-        "announcement_Y9hQeb",
-        "announcement_ydRf6c"
+        "announcement_ydRf6c",
+        "announcement_Y9hQeb"
       ],
       "name": "t:names.announcement_bar",
       "settings": {

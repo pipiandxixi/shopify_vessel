@@ -107,7 +107,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Let your day be filled with what inspires you.</p>",
+                "text": "<p>The world is chaotic. Treat yourself!</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "center",
