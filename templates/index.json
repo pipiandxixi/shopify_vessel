@@ -127,11 +127,26 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "product_list_button_UcCBWR": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "View all",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "product_list_text_QBqpVr",
-            "text_ncFBNH"
+            "text_ncFBNH",
+            "product_list_button_UcCBWR"
           ]
         },
         "static-product-card": {
@@ -156,7 +171,7 @@
               "type": "_product-card-gallery",
               "name": "t:names.product_image",
               "settings": {
-                "image_ratio": "square",
+                "image_ratio": "adapt",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
