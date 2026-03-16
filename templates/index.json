@@ -80,7 +80,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<p>💖 Your Daily Dose of Dopamine 💖</p>",
+                "text": "<p>💖 Editor's Pick💖</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -156,7 +156,7 @@
               "type": "_product-card-gallery",
               "name": "t:names.product_image",
               "settings": {
-                "image_ratio": "portrait",
+                "image_ratio": "square",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -167,10 +167,34 @@
                 "padding-inline-end": 8
               },
               "blocks": {}
+            },
+            "price_8rUMjw": {
+              "type": "price",
+              "name": "t:names.product_price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "",
+                "width": "100%",
+                "alignment": "center",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "color": "var(--color-foreground)",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "product_card_gallery_it48dw"
+            "product_card_gallery_it48dw",
+            "price_8rUMjw"
           ]
         }
       },
