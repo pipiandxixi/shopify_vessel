@@ -80,11 +80,11 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<p>💖 Editor's Pick💖</p>",
+                "text": "<p>💖Editor's Pick💖</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
-                "type_preset": "h3",
+                "type_preset": "h2",
                 "font": "var(--font-secondary--family)",
                 "font_size": "var(--font-size--body-md)",
                 "line_height": "loose",
