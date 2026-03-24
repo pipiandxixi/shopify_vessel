@@ -18,7 +18,7 @@
           "type": "_announcement",
           "settings": {
             "text": "<strong>🌈</strong>Free Shipping Over $79 💌",
-            "link": "",
+            "link": "shopify://policies/shipping-policy",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "weight": "",
