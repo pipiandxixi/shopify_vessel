@@ -58,6 +58,7 @@
         "announcement_Y9hQeb": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "🌸 Join Cutie Club & Earn Rewards 💫",
             "link": "shopify://blogs/who-we-are-what-we-do-1/💖-welcome-to-the-cutie-club",
