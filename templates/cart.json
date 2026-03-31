@@ -16,7 +16,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Orders over $79 enjoy FREE SHIPPING!</p><p>A tiny $7 shipping fee applies to smaller treats.</p><p>Your path to peace is just a click away... 🕊️✨</p>",
+            "text": "<p>Orders over $79 enjoy FREE SHIPPING!</p><p>A $6.99 shipping fee applies to smaller treats.</p><p>Your path to peace is just a click away... 🕊️✨</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "center",
