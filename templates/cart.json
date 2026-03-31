@@ -6,11 +6,38 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "cart-section": {
       "type": "main-cart",
       "blocks": {
+        "text_bgTMyD": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Orders over $79 enjoy FREE SHIPPING!</p><p>A tiny $7 shipping fee applies to smaller treats.</p><p>Your path to peace is just a click away... 🕊️✨</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": true,
+            "background_color": "#ffffff",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "cart-page-title": {
           "type": "_cart-title",
           "static": true,
@@ -56,6 +83,9 @@
           "blocks": {}
         }
       },
+      "block_order": [
+        "text_bgTMyD"
+      ],
       "settings": {
         "section_width": "page-width",
         "color_scheme": "",
@@ -185,6 +215,7 @@
               "type": "_product-card-group",
               "name": "t:names.group",
               "settings": {
+                "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
                 "vertical_on_mobile": true,
