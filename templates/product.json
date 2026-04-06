@@ -67,6 +67,12 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "essential_free_shipping_app_block_mfEQwA": {
+              "type": "shopify://apps/essential-free-shipping/blocks/app-block/4125375e-37c8-4137-949d-c4e1a3aac572",
+              "settings": {
+                "id": "cmnmyvaeg002zh52x8ku8lq08"
+              }
+            },
             "group_JtXipy": {
               "type": "group",
               "name": "t:names.group",
@@ -511,6 +517,7 @@
             }
           },
           "block_order": [
+            "essential_free_shipping_app_block_mfEQwA",
             "group_JtXipy"
           ]
         }
